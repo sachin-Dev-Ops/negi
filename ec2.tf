@@ -1,0 +1,4 @@
+resource "aws_key_pair" "key_pair" {
+  key_name   = "squizify-rr-staging"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCWAT77t783O0YlO8FuCb71z6fVZmzeoNCsqVWxM2fMrUPqid2kjF1lNymjFp8ccpWFdVCuO1SEqhfD7v8aSpppChLkcHmM5rbulSeANiMM/iiJgaXCKRGA7SuEXwoafUzASXYzE8mNIfU5E2JqiHF308ZkfMmAq+5pRPXjCIiW330AIO5lqgS4rVyLEsSJwC1vRWatJS6nngBK/qHSv2Hj90Q6yjIo+cGKO33nvFWHdXQIRVgxZCvEGgKVtEUGojE6b4KZOT0UMQivP78606C3vO8TfmbOAxtfVTZi2wyDg4SJnIBWyTpc46Am9UqGYSr1Go8Et5uDBLFdMAWc6vj5 squiz-rr-prod\n"
+}

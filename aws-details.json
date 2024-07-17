@@ -1,0 +1,5 @@
+{
+    "apply_role_arn": "arn:aws:iam::211125306867:role/Foundation-Write",
+    "plan_role_arn": "arn:aws:iam::211125306867:role/Foundation-Write",
+    "region": "ap-southeast-2"
+}
