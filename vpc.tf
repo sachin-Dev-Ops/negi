@@ -1,5 +1,5 @@
 module "vpc" {
-  source         = "git@github.com:squizify/squizify-foundation-modules.git//src/modules/vpc?ref=v1.2.0"
+  source         = "git@github.com:sachin-Dev-Ops/testing-s.git"
   naming_prefix  = "${var.customer_prefix}-staging"
   network_prefix = "10.130"
   number_of_ngws = 1
